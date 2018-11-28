@@ -1,0 +1,27 @@
+.card{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 15px;
+    width: 50%;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.question {
+    margin-top: 15px;
+}
+
+.answer {
+
+}
+
+.show {
+
+}
+
+.hide {
+    margin-bottom: 15px
+}
