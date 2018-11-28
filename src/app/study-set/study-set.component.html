@@ -1,6 +1,7 @@
 <app-navigation></app-navigation>
 <div>
     <h1>{{studySets.name}}</h1>
+    <button class='deleteStudySet' type='submit' >Delete Study Set</button>
     <ul *ngFor="let card of card">
         <li><app-card [card]='card'></app-card></li>
     </ul>
