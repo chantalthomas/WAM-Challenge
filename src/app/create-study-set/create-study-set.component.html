@@ -9,20 +9,20 @@
         <h1>Create a Study Set</h1>
     </div>
     <div class='studySetContent'>
-        <form #studySetContentForm='ngForm'>
-            <div class='row'>
+        <form class='studySetContentForm' #studySetContentForm='ngForm'>
+            <div class='row1'>
                 <legend>Study Set Name</legend>
                 <label>
                     <input type='text' [(ngModel)]="name" name='name'>
                 </label>
             </div>
-            <div class='row'>
+            <div class='row2'>
                 <legend>Study Set Topic</legend>
                 <label>
                     <input type='text' [(ngModel)]="topic" name='topic'>
                 </label>
             </div>
-            <div class='row'>
+            <div class='row3'>
                 <button class='createButton' type='submit' (click)='createStudySet()'>Create</button>
             </div>
         </form>

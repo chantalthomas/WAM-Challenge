@@ -9,17 +9,38 @@ h1 {
 
 .studySetContent{
     width: 50%;
-    text-align: center;
     margin: auto;
     margin-top: 3rem;
     border: 2px solid black;
+}
+
+.studySetContentForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.row1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.row2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.row3{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 form{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-input {
-    display: block;
-}
 
