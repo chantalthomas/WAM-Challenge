@@ -1,0 +1,30 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<app-navigation></app-navigation>
+<div class='newStudySet'>
+    <div class='col s6'>
+        <h1>Create a Study Set</h1>
+    </div>
+    <div class='studySetContent'>
+        <form #studySetContentForm='ngForm'>
+            <div class='row'>
+                <legend>Study Set Name</legend>
+                <label>
+                    <input type='text' [(ngModel)]="name" name='name'>
+                </label>
+            </div>
+            <div class='row'>
+                <legend>Study Set Topic</legend>
+                <label>
+                    <input type='text' [(ngModel)]="topic" name='topic'>
+                </label>
+            </div>
+            <div class='row'>
+                <button class='createButton' type='submit' (click)='createStudySet()'>Create</button>
+            </div>
+        </form>
+    </div>
+</div>

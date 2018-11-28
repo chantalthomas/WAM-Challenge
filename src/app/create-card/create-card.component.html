@@ -1,0 +1,21 @@
+<app-navigation></app-navigation>
+<form>
+<div>
+    <label>Question:
+        <input [(ngModel)]="flashcard.question" placeholder="question">
+    </label>
+</div>
+<div>
+    <label>Answer:
+        <input [(ngModel)]="flashcard.answer" placeholder="answer">
+    </label>
+</div>
+<div>
+    <label>Topic:
+        <input [(ngModel)]="studyset.topic" placeholder="topic">
+    </label>
+</div>
+<div class='row'>
+    <button class='btn-large btn-submit' type='submit'>Create</button>
+</div>
+</form>

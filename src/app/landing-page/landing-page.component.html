@@ -1,0 +1,13 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<app-navigation></app-navigation>
+<h1>The Flash App</h1>
+<div class='studySetList'>
+    <h2>Current Study Sets</h2>
+    <ul *ngFor="let studySet of studySets">
+        <li><a class="nav-link" routerLink="/study-set/{{studySet.id}}">{{studySet.name}}</a></li>
+    </ul>
+</div>

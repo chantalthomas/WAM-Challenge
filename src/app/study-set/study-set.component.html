@@ -1,0 +1,7 @@
+<app-navigation></app-navigation>
+<div>
+    <h1>{{studySets.name}}</h1>
+    <ul *ngFor="let card of card">
+        <li><app-card [card]='card'></app-card></li>
+    </ul>
+</div>

@@ -1,0 +1,25 @@
+h1,
+h2{
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.studySetContent{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
+    border: 2px solid black;
+}
+
+form{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+input {
+    display: block;
+}
+
