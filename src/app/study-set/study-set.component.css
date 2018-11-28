@@ -2,8 +2,18 @@ ul {
     list-style-type: none;
 }
 
-.deleteStudySet {
+.buttonContainer {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: auto;
+}
+
+.createNewFlashcard {
     margin: 15px;
-    position: absolute;
-    right: 0;
+    justify-self: end;
+}
+
+.deleteStudySet{
+    margin: 15px;
+    justify-self: end;
 }
